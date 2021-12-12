@@ -38,6 +38,7 @@
 		reg = <0x0 RAMOOPS_BASE_ADDR 0x0 RAMOOPS_SIZE>;
 		console-size = <RAMOOPS_CONSOLE_SIZE>;
 		pmsg-size = <RAMOOPS_PMSG_SIZE>;
+		ecc-size = <ECC_SIZE>;
 		record-size = <RAMOOPS_RECORD_SIZE>;
 		no-dump-oops;
 	};

@@ -126,6 +126,7 @@
 	qcom,mdss-dsi-panel-peak-brightness = <4500000>;
 	qcom,mdss-dsi-panel-blackness-level = <3000>;
 	qcom,mdss-dsi-reset-sequence = <1 4>, <0 1>, <1 12>;
+	qcom,ulps-enabled;
 	qcom,mdss-dsi-display-timings {
 		timing@0{
 			qcom,mdss-dsi-panel-phy-timings =
@@ -155,6 +156,7 @@
 
 	qcom,mdss-dsi-t-clk-post = <0x0e>;
 	qcom,mdss-dsi-t-clk-pre = <0x31>;
+	qcom,ulps-enabled;
 	qcom,mdss-dsi-display-timings {
 		timing@0{
 			qcom,mdss-dsi-panel-phy-timings = [00 2a 0b 0b 28 26 0b

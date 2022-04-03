@@ -118,7 +118,7 @@ build_flashable_zip() {
 		--partition_size $((32 * 1024 * 1024)) \
 		--image $(pwd)/CosmicFresh/dtbo.img
     cd $(pwd)/CosmicFresh/
-    zip -r9 "CosmicFresh-R$KV-hanoip.zip" anykernel.sh META-INF tools version Image.gz dtb dtbo.img
+    zip -r9 "CosmicFresh-R$KV-hanoip.zip" anykernel.sh META-INF tools Image.gz dtb dtbo.img
     rm -rf {Image.gz,dtb,dtbo.img}
     cd ../
 }
